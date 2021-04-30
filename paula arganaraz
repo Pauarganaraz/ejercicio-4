@@ -1,0 +1,23 @@
+Algoritmo compraMesALimentoMascotas
+	definir CANTIDAD_DE_MESES Como Entero;
+	Definir cantidadPerros como entero;
+	Definir cantidadGatos Como Entero;
+	definir kiloAlimentoPerro Como Entero;
+	definir kiloAlimnentoGato Como Entero;
+	Definir costoAlimentoGato Como Real;
+	DEfinir costoAlimentoPerro Como Real;
+	CANTIDAD_DE_MESES = 12;
+	cantidadPerros = 1;
+	cantidadGatos = 2;
+	kiloAlimentoPerro = 5;
+	kiloAlimnentoGato = 6;
+	costoAlimentoGato = 0.20;
+	costoAlimentoPerro = 0.30;
+	Escribir "por mes se precisa Kgs perro/gato por mes"
+	leer kiloAlimentoPerro;
+	leer kiloAlimnentoGato;
+	( CANTIDAD_DE_MESES * cantidadGatos * costoAlimentoGato);
+	( CANTIDAD_DE_MESES * cantidadPerros * costoAlimentoPerro);
+	
+	
+FinAlgoritmo
